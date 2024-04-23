@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Kaia() {
   return (
     <div>
-      <div className="absolute inset-0 flex justify-center items-center">
+      <div className="absolute h-screen w-screen flex justify-center items-center">
         <video
           className="md:h-screen md:w-auto h-auto max-w-[100vw] "
           autoPlay
