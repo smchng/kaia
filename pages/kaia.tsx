@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Kaia() {
   return (
     <div>
-      <div className="absolute h-screen w-screen flex justify-center items-center">
+      <div className="absolute inset-0 flex justify-center items-center">
         <video
-          className="md:h-screen md:w-auto h-auto max-w-[100vw] "
+          className="md:h-screen md:w-auto h-auto w-screen"
           autoPlay
           //   controls
           loop
@@ -14,9 +14,7 @@ export default function Kaia() {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div
-        className={` absolute flex justify-center items-end w-screen h-screen `}
-      >
+      <div className=" absolute flex justify-center items-end w-screen h-screen ">
         <Image
           className=" w-[20vw] h-auto"
           src="/imgs/cake.svg"
