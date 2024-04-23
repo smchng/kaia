@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function Kaia() {
   return (
     <div>
-      <div className="absolute inset-0 flex justify-center items-center">
+      <div className="md:h-screen md:w-auto h-auto w-screen absolute inset-0 flex justify-center items-center">
         <video
           className="md:h-screen md:w-auto h-auto w-screen "
           autoPlay
-          controls
+          //   controls
           loop
         >
           <source src="/vids/kaia2.mp4" type="video/mp4" />
