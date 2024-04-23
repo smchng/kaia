@@ -46,7 +46,7 @@ export default function Home() {
           <Link
             onMouseEnter={() => setIsFlipped(true)}
             onMouseLeave={() => setIsFlipped(false)}
-            href="/kaia"
+            href="https://youtu.be/Lb8BIRN6VwM"
             className="hover:bg-yellow bg-red cursor-pointer border rounded-xl border-[1.5px] px-5 pb-1 transition-colors"
           >
             <p className="text-xs">
